@@ -1,0 +1,41 @@
+name = Acton
+description = An extensible and flexible theme implementing the ANU styles.
+screenshot = screenshot.png
+core = 7.x
+
+regions[highlighted] = Highlighted
+regions[header] = Header
+regions[sidebar_first] = Menu sidebar
+regions[sidebar_content] = Content sidebar
+regions[help] = Help
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[band_first] = Page band first
+regions[band_second] = Page band second
+regions[footer] = Footer
+; The following are regions required by Drupal functionality.
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+framework stylesheets[all][] = styles/acton.reset-browser.css
+stylesheets[all][] = css/acton.reset-drupal.css
+stylesheets[all][] = css/system.menus.css
+stylesheets[all][] = css/acton.forms.css
+stylesheets[all][] = css/acton.content.css
+stylesheets[all][] = css/acton.css
+stylesheets[all][] = css/acton.responsive.css
+stylesheets[all][] = css/acton.fixes.css
+stylesheets[all][] = css/acton.tabs.css
+stylesheets[all][] = css/jquery.ui.tabs.css
+stylesheets[all][] = css/jquery.ui.tabs.min.css
+stylesheets[all][] = css/acton.reset-jquery-ui-tabs.css
+
+scripts[] = js/acton-tabs.js
+scripts[] = js/jquery.ba-hashchange.min.js
+
+; Packaged on 2013-08-07 by ANU Drupal Users Group.
+version = "7.x-2.0-beta10"
+core = "7.x"
+project = "acton"
+project status url = "http://drupal.anu.edu.au/updates/history"

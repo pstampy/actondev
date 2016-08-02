@@ -1,0 +1,30 @@
+/**
+ * @file
+ * Drupal reset styles.
+ */
+
+fieldset,
+.item-list ul li,
+.form-type-radio .description,
+.form-type-checkbox .description {
+  padding: 0;
+  margin: 0;
+}
+
+.item-list li {
+  list-style: none;
+  list-style-image: none;
+}
+
+th {
+  border-bottom: none;
+}
+tbody {
+  border-top: none;
+}
+
+tr.even,
+tr.odd {
+  background-color: inherit;
+  border-bottom: none;
+}

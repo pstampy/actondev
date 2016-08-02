@@ -1,0 +1,26 @@
+/**
+ * @file
+ * Styling for tabs.
+ */
+
+/* Secondary tabs */
+
+/* Styles wrapper and tabs bar. */
+div.tabs-wrapper-secondary {
+  margin-top: 1em;
+  border: none;
+}
+div.tabs-wrapper-secondary ul.tabs {
+  margin-left: 0;
+  border: none;
+  font-size: 90%;
+}
+
+/** Styles tab links. */
+div.tabs-wrapper-secondary ul.tabs li {
+  margin: auto 0.25em;
+}
+div.tabs-wrapper-secondary ul.tabs li a {
+  border: 1px solid #CCC;
+  padding: 4px 8px;
+}

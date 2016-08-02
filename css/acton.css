@@ -1,0 +1,113 @@
+/**
+ * @file
+ * Acton theme general styles.
+ */
+
+/* Colors links in the alert bar appropriately. */
+#devlmsg a {
+  color: #CAD8DF;  /* text-uni50 */
+}
+#devlmsg a:hover {
+  color: #94B0BE;  /* text-uni50 */
+}
+
+/* Fixes table display. */
+.acton table {
+  display: table;
+}
+table {
+  width: 100%;
+}
+table.auto {
+  width: auto;
+}
+
+/* Styles striped tables. */
+tr.even {
+  background-color: #f6f6f6;
+}
+td.active {
+  background-color: #f5f5f5;
+}
+tr.even td.active {
+  background-color: #f0f0f0;
+}
+
+/* Provides first/last blocks nested under the content doublewide. */
+#content div.first {
+  margin-left: 0;
+  clear: left;
+}
+#content div.last {
+  margin-right: 0;
+  clear: right;
+}
+
+/* Pullquote fix. */
+.pullquote.auto {
+  width: auto;
+}
+
+/* Adds "clear" to element. */
+.clear {
+  clear: both;
+}
+
+/* Percentage width classes. */
+.w-scale25 {
+  width: 25%;
+}
+.w-scale50 {
+  width: 50%;
+}
+.w-scale75 {
+  width: 75%;
+}
+.w-scale33 {
+  width: 33%;
+}
+.w-scale67 {
+  width: 67%;
+}
+
+/* Floats grid classes to the right. */
+.doublenarrow.right, .wide.right, .narrow.right {
+  float: right;
+}
+
+/* Fixes feature rotator styles. */
+#content .doublewide #anu-features-rotating,
+#content .doublewide #anu-features-rotating-2,
+#content .doublewide #anu-features-rotating-22 {
+  line-height: normal;
+}
+
+/* Styles action links. */
+ul.action-links {
+  margin: 1em 0;
+  padding: 0 20px 0 20px;
+  list-style-type: none;
+  overflow: hidden;
+}
+ul.action-links li {
+  float: left;
+  margin: 0 1.5em 0 0;
+}
+ul.action-links a {
+  padding-left: 20px;
+  background: transparent url(../images/action.gif) no-repeat 0 center;
+  line-height: 30px;
+  font-size: 95%;
+  text-decoration: none;
+}
+ul.action-links a:hover {
+  text-decoration: underline;
+}
+
+/* Styles Drupal admin pages. */
+dl.admin-list dd {
+  margin-bottom: 1em;
+}
+form.confirmation #edit-cancel {
+  margin-left: 1em;
+}

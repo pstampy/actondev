@@ -1,0 +1,112 @@
+/**
+ * @file
+ * General tweaks and workarounds to integrate ANU web styles with Drupal.
+ */
+
+/* Fixes explore bar search box. */
+#explore label {
+  display: inline;
+  font-weight: normal;
+}
+
+/* Fixes horizontal banner tabs bar height. */
+.acton #tabs-wrap,
+.acton #tabs-nav {
+  height: auto;
+}
+/* Fixes horizontal banner tabs bar width. */
+.acton #tabs-nav ul li a, #tabs-nav a{
+padding: 5px 12px 10px 12px;
+}
+
+
+/* Fixes for feature rotator, bottom divline removed. */
+.acton #anu-features-rotating, .acton #anu-features-rotating-2, .acton #anu-features-rotating-22{
+border: none;
+padding-bottom:0px;
+}
+
+/* Fixes feature-text background. */
+.acton #anu-features-rotating .feature-text, 
+.acton #anu-features-rotating-2 .feature-text, 
+.acton #anu-features-rotating-22 .feature-text{
+background-color: #EAEFF1;
+}
+
+/*Fixes for feature box height*/
+.acton #anu-features-vertical-w,
+.acton #anu-features-vertical-w .feature-box{
+height:285px;
+margin:0px;
+}
+.acton #anu-features-vertical-w .feature-text{
+height:143px;
+}
+
+/* Fixes search box line breaking. */
+#menu .search-box label,
+.search-boxes .search-form label {
+  display: inline-block;
+  font-weight: inherit;
+}
+
+/* Fixes linked menu block title. */
+/*#menu .block {
+  clear: both;
+}
+div.menu-flat p.block-title.linked {
+  padding: 0;
+  font-size: inherit;
+}
+div.menu-flat p.block-title.linked a {
+  line-height: inherit;
+  padding: 5px 10px;
+  border-left: none;
+}
+
+/*.acton .menu-flat p a{
+padding:0px;
+font-size:1em;
+}*/
+
+.acton .menu-main .block-title .block-title-link{
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 1em
+}
+
+/* Fixes contextual links. */
+div.menu-flat a.contextual-links-trigger {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: inherit;
+  display: none;
+  margin: 0;
+  padding: 0 2px;
+  font-size: inherit;
+  line-height: inherit;
+  z-index: 1;
+  position: relative;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+}
+div.menu-flat .contextual-links-active a.contextual-links-trigger {
+  background-color: #fff;
+  border-color: #ccc;
+  border-bottom: none;
+}
+div.menu-flat .contextual-links-wrapper li {
+  border: none;
+}
+div.menu-flat ul.contextual-links li a {
+  padding: 0.25em 1em 0.25em 0.5em;
+  border: none;
+  font-size: inherit;
+}
+
+/* Removes underline for contextual links. */
+.contextual-links-wrapper ul.contextual-links a:hover {
+  text-decoration: none;
+}

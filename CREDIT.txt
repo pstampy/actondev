@@ -1,0 +1,2 @@
+This theme is forked from the Clean theme:
+  http://drupal.org/project/clean

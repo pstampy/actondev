@@ -1,0 +1,7 @@
+DISTRIBUTION RESTRICTIONS
+
+This theme is only to be provided to Australian National University units or 
+their agents, and is not to be distributed outside of the University under any 
+circumstances, except to companies providing web service to ANU areas.
+
+This is in addition to the GNU Public Licence, which prevails in all other cases.

@@ -1,0 +1,63 @@
+/**
+ * @file
+ * Form styles.
+ */
+
+/* General */
+
+.form-item .description {
+  font-size: 0.8em;
+}
+.description {
+  color: #777;
+}
+
+/* Fieldsets */
+
+.acton #body legend {
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+  font-weight: normal;
+  font-color: #A71930;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  color: #4C6E78;
+}
+
+.acton #body fieldset {
+  border: 1px solid #4C6E78;
+  padding: 10px 0 10px;
+  margin: 20px 0 10px;
+}
+
+.acton #body fieldset .fieldset-wrapper {
+  padding: 0 15px 10px;
+}
+
+.acton #body fieldset .fieldset-wrapper > fieldset:first-child {
+  margin-top: 5px;
+}
+
+html.js .acton #body fieldset.collapsed {
+  border-width: 1px;
+  height: auto;
+}
+
+.acton #body fieldset.collapsed {
+  background-color: transparent;
+}
+
+.acton #body a.fieldset-title {
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* Vertical tabs */
+
+.vertical-tabs fieldset.vertical-tabs-pane {
+  padding: 10px;
+}
+
+.vertical-tabs fieldset.vertical-tabs-pane .fieldset-wrapper {
+  padding: 0;
+}

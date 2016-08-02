@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Responsive design styles.
+ */
+
+/**
+ * Scrollable responsive table.
+ */
+
+.responsive-scroll-wrapper {
+  margin-bottom: 10px;
+  overflow-x: scroll;
+}
+.responsive-scroll-wrapper table {
+  margin-bottom: 0;
+}
+
+
+/**
+ * Split responsive table.
+ */
+
+.responsive-split-wrapper {
+  margin-bottom: 10px;
+}
+.responsive-split-wrapper table {
+  margin-bottom: 0;
+}
+.responsive-split-wrapper .pinned {
+  overflow-x: scroll;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.responsive-split-wrapper .scrollable {
+  overflow-x: scroll;
+}
+.responsive-split-wrapper,
+.responsive-split-wrapper table.responsive-split {
+  position: relative;
+}
+.responsive-split-wrapper .pinned table {
+  border-right: none;
+}
